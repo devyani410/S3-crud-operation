@@ -1,0 +1,26 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIA3YQPIH7DQ7WS7QBF
+      secret-key: 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
+    region:
+      static: Asia Pacific (Mumbai) ap-south-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: springboot-bucket11
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 9090
+
